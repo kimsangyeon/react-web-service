@@ -10,6 +10,15 @@ class App extends React.Component {
   minus = () => {
     this.setState(cur => ({ count: cur.count - 1 }));
   };
+  componentDidMount() {
+    console.log('Component rendered');
+  }
+  componentDidUpdate() {
+    console.log('I just updated');
+  }
+  componentWillUnmount() {
+    console.log('Goodbye');
+  }
   render() {
     return (
       <div>
