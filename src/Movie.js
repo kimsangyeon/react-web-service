@@ -8,7 +8,7 @@ const Movie = ({ year, title, summary, poster, genres }) => {
       <div className="movie__data">
         <h1 className="movie__title">{title}</h1>
         <h5 className="movie__year">{year}</h5>
-        <ul className="genres">
+        <ul className="movie__genres">
           {genres.map((genre, index) => (
             <li key={index} className="gernes__genre">
               {genre}
