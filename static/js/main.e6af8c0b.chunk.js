@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-web-service"]=this["webpackJsonpreact-web-service"]||[]).push([[0],{3:function(e,t,n){e.exports=n(8)},8:function(e,t,n){"use strict";n.r(t);var r=n(0),c=n.n(r),a=n(2),s=function(){return c.a.createElement("span",null,"something")};n.n(a).a.render(c.a.createElement(s,null),document.getElementById("potato"))}},[[3,1,2]]]);
+//# sourceMappingURL=main.e6af8c0b.chunk.js.map
